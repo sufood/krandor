@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on Krandor</title>
+    <link>https://krandor.business/en/</link>
+    <description>Recent content in Ens on Krandor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>© 2019 — Some Author — All rights reserved.</copyright>
+    <lastBuildDate>Fri, 04 Jan 2019 04:40:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://krandor.business/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>20190104</title>
+      <link>https://krandor.business/en/blog/20190104/</link>
+      <pubDate>Fri, 04 Jan 2019 04:40:01 +0000</pubDate>
+      
+      <guid>https://krandor.business/en/blog/20190104/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://krandor.business/en/about/</link>
+      <pubDate>Fri, 04 Jan 2019 04:39:39 +0000</pubDate>
+      
+      <guid>https://krandor.business/en/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

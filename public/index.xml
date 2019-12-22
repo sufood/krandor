@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Krandor Home</title>
+    <link>https://krandor.business/</link>
+    <description>Recent content on Krandor Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>© 2019 — The Real Krandor  — All rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 Dec 2019 12:36:54 +1100</lastBuildDate>
+    
+	<atom:link href="https://krandor.business/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gademo</title>
+      <link>https://krandor.business/gademo/</link>
+      <pubDate>Wed, 18 Dec 2019 12:36:54 +1100</pubDate>
+      
+      <guid>https://krandor.business/gademo/</guid>
+      <description>Cool fin article d&amp;rsquo;jour&amp;hellip;
+ read article
+pretend to be from Pintrest
+pretend to be from email
+ </description>
+    </item>
+    
+    <item>
+      <title>Lali</title>
+      <link>https://krandor.business/lali/</link>
+      <pubDate>Sun, 02 Jun 2019 10:52:53 +1000</pubDate>
+      
+      <guid>https://krandor.business/lali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stripe</title>
+      <link>https://krandor.business/post/2019/03/stripe/</link>
+      <pubDate>Sat, 23 Mar 2019 05:27:12 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/03/stripe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Visualisation API</title>
+      <link>https://krandor.business/post/2019/01/google-visualisation-api/</link>
+      <pubDate>Thu, 17 Jan 2019 03:40:35 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/01/google-visualisation-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo &amp; Firebase work well together</title>
+      <link>https://krandor.business/post/2019/01/hugo-firebase-work-well-together/</link>
+      <pubDate>Thu, 10 Jan 2019 00:21:58 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/01/hugo-firebase-work-well-together/</guid>
+      <description>So I&amp;rsquo;ve been playing around a little bit with Hugo and Firebase - that&amp;rsquo;s what this new site is built with. It is also the first time I&amp;rsquo;ve played around with text/markdown to build a website. Not a bad combination to build a static page based structure and you can see that I have gone to town on with a simple hugo theme inspired by the geniuses behind bettermotherfuckingwebsite.com.
+It wasn&amp;rsquo;t super hard to get it all together.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://krandor.business/docs/waterfall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/waterfall/</guid>
+      <description>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;: new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src= &#39;//www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f); })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-5MXSDQ&#39;); Krandor.net Home Demos Documents Recipes Travel FAQ   The Waterfall Hideout Plot Hook  Captured kobolds from the some previous mission divulge information of the lair&amp;#39;s whereabouts OR The PCs stumble across the secret hideout of the infamous Rougesbury, what are the odds?  Rougesbury&amp;#39;s Lair Conditions Make good use of darkness, echoes, the perceived vulnerabilities of crawl spaces and climbing with inappropriate weapons and swimming in water in heavy armour.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://krandor.business/recipes/food-pics/mini_rostis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/food-pics/mini_rostis/</guid>
+      <description>Krandor.netHomeDemosDocumentsRecipesTravelFAQMuffin Tray RostisDescriptionI had a discussion with a friend about making mini potato rostis using a muffin tin.
+Culinary experimentation has met with success...
+Ingredients4 Large Desiree potatos (other seasonal varieties can be substituted)Olive oil spray25g ButterSalt to tasteMethodPre-heat oven to 200 degrees celciusPeal and roughly grate the potatoes (store gratings in water to stop oxidization)Take potato gratings by the handful and squeeze all the water you can outTransfer squeezed gratings, hand full by hand full to a dry bowlSeason the potato gratings with saltLightly spray 2 muffin trays with olive oil (each with 12 x regular muffin cups)Break up the butter evenly and place 1 small piece in each muffin cup (~1g per muffin cup)Place muffin trays in oven for 1 minute to melt butterRemove muffin trays from ovenDivide the potato gratings evenly among the muffin cups and gently press flat with a tea spoonReturn trays to the oven for 20 minutesRemove the muffin trays and flip the rostis (don&#39;t press down, let the air circulate)Return to the oven for a further 20 minutesRemove from oven and serve with topping of choice:Krandor says smoked salmon, creme faiche and finely chopped dillVegor says sour creme and chivesUser Interface: &amp;copy; Alen Grakalic Easy front-end framework (Read license agreement)Made with Easy</description>
+    </item>
+    
+    <item>
+      <title>About / FAQ</title>
+      <link>https://krandor.business/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/about/</guid>
+      <description>Who or what is Krandor? Krandor is the carnivorous Australian god of barbeques and other forms of searing dead flesh. When hungry he and his worshippers cry out, &amp;ldquo;Flesh for Krandor!&amp;rdquo;
+Are there other Australian gods? Many but one more of note is Krandor&amp;rsquo;s pale and anemic half brother Vegor, the god of vegetarians. Vegor&amp;rsquo;s acolytes tend to turn up at barbeques and whimper piteously about the amount of dead flesh present.</description>
+    </item>
+    
+    <item>
+      <title>BBQ spare ribs</title>
+      <link>https://krandor.business/recipes/bbq_spare_ribs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/bbq_spare_ribs/</guid>
+      <description>Description American style BBQ spare ribs with red currant jelly glaze. (serves 4)
+This recipe is heavily modified from various sources including River Cottage, Donna Hay and quite a few Google searches Ingredients  1.5 kg &amp;lsquo;American style&amp;rsquo; spare ribs (2 racks worth)  Marinade  1 Small jar of red currant jelly 2 crushed and chopped garlic cloves 1 Tbsp finely grated ginger 1 tsp paprika 1&amp;frasl;2 tsp red chilli flakes 2 Tbsp soy sauce 1&amp;frasl;4 cup red wine vinegar 1 tsp salt and pepper  Method  Mix all the marinade ingredients together well Heat the marinade gently over a low heat until the jelly dissolves Allow marinade to cool Place ribs in a large oven proof dish Pour over marinade Work the marinade into the ribs with your hands Cover the ribs with cling film so there is no air gap Refridgerate overnight (or for at least 1-2 hours if short on time) Remove the cling film With a sharp knife, deeply score the tendonous inside of the spares ribs between each bone (this will help the BBQ heat break down the tissue between the bones) Work the marinade into the score marks with your hands (Optional step) For best results cover the spare ribs with foil and bake them in a a preheated oven at 160 degrees celcius for 2 hours Sear the spare ribs for about 5 minutes on each side over a medium BBQ heat (reserve the marinade for basting) Reduce the BBQ to LOW and cook gently, covered if possible, for 1 to 1 and 1&amp;frasl;2 hours turning every 10 minutes If the ribs look to be burning, turn and baste them with the reserved marinade Remove the ribs from the BBQ, cover with foil and allow to rest for 5-10 minutes Meanwhile, reduce any remaining marinade over a low to medium heat for 5-10 minutes Remove the foil from the ribs, cut between the ribs between the bone Toss the ribs in the reduced marinade, and plate to serve  Note: Goes well with a vinegar based coleslaw and diced apple</description>
+    </item>
+    
+    <item>
+      <title>Bring them back alive</title>
+      <link>https://krandor.business/docs/sewers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/sewers/</guid>
+      <description>Plot Hook  City/Town is attacked by kobold raiders during the night [Side-plot – PCs Defend the Inn] The kobold attackers were eventually driven off One band of kobolds was cornered and has retreated to and holed up in the local sewers Community leaders (Inn keeper?) approach the PCs to help hunt down and capture the kobolds for questioning. [Side-plot - Hunt the Kobold&amp;rsquo;s to their Lair]  Decrepit Sewers Lore Lore DC 15 - Quite old and probably in need of repair, be careful.</description>
+    </item>
+    
+    <item>
+      <title>Brown Rice &amp; Carmelised Onion Salad</title>
+      <link>https://krandor.business/recipes/brown_rice_carmelised_onion_salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/brown_rice_carmelised_onion_salad/</guid>
+      <description> Description Jewish rice salad. Exceedingly yummy. (serves 8) (From a The Age newspaper, Sunday Life - many, many years ago&amp;hellip;) ![No pciture yet for Brown Rice &amp;amp; Carmelised Onion Salad]()
+Ingredients  120ml Olive oil 3 Brown onions, halved and sliced 150g Currants, covered in red wine vinegar and boiled for 3 mins (reserve liquid) 2 cups Brown rice, boiled, drained and kept warm 1&amp;frasl;2 bunch of mint, leaves only (I prefer vietnamese mint) 2 Green chillies, seeded and finely chopped (optional) 2 lemons, juiced 120g pine nuts, lightly toasted in a fry pan Sea salt &amp;amp; cracked pepper to taste  Method  Heat 30ml of oil in large fry pan over low heat Add onion, sea salt &amp;amp; cracked pepper and cook slowly for 20-30 minutes, stirring occasionally until caramelised Add currants and vinegar and stir together Combine cooked rice, mint and chillies in a large bowl Add remaining oil and lemon juice and stir Add half the onion mixture and half the pine nuts and toss to combine Top with remaining halves Eat promptly, will keep for an hour or so but nuts will go soggy  </description>
+    </item>
+    
+    <item>
+      <title>Chermoula Chicken</title>
+      <link>https://krandor.business/recipes/chermoula_chciken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/chermoula_chciken/</guid>
+      <description>Description Moroccan spiced chicken thighs on cous cous. (serves 2) Chermoula is generally used as a marinade for Moroccan fish dishes. You can add tomatoes to the chermoula paste to make it more like a salsa. Some chermoula recipes use a mild vinegar instead of the olive oil (whimps!). Fresh coriander and fresh garlic can be used but then again you could also grind your own cumin (where does the madness stop?</description>
+    </item>
+    
+    <item>
+      <title>Chewy Choc Chip &amp; Peanut Butter Cookies</title>
+      <link>https://krandor.business/recipes/choc_chip_peanut_butter_cookies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/choc_chip_peanut_butter_cookies/</guid>
+      <description>Description Chewy chocolate chip &amp;amp; peanut butter cookies. (serves 12) (Modified from an Alton Brown recipe) Ingredients  250g Butter, softened 2 &amp;amp; 1&amp;frasl;2 cups of plain flour 1 tsp Salt 1 tsp Baking soda 1&amp;frasl;4 cup sugar 1 &amp;amp; 1&amp;frasl;4 Brown sugar 1 Egg 2 Tbsp Milk 2 Tbsp Peanut butter, crunchy style if available 1 &amp;amp; 1&amp;frasl;2 tsp Vanilla extract 250g Milk choloate chips  Method  Preheat oven to 180 degrees celcius Line 2 cookie trays with baking paper Sift flour, salt &amp;amp; baking soda into a bowl Beat butter, sugar and brown sugar together until thick &amp;amp; pale Beat in the vanilla Beat in the egg Beat in the milk Beat in the peanut butter Mix until well combined Slowly beat in the dry mixture Reduce mixer to slowest speed and add the choloate chips Continue manually folding in chocolate until well combined Chill the dough in a refrigerator for a couple of hours (optional, but this is what makes it chewy!</description>
+    </item>
+    
+    <item>
+      <title>Chocol oat cookies</title>
+      <link>https://krandor.business/recipes/chocol_oat_cookies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/chocol_oat_cookies/</guid>
+      <description>Description Gooey, chewy double chocolate &amp;amp; oat cookies. (serves 24) (Modified from a Nigella Lawson recipe) ![No picture yet]()
+Ingredients  1&amp;frasl;2 cup of plain flour 75g Plain rolled oats (untoasted) 70g Cocoa powder 1&amp;frasl;2 tsp bicarb soda 100g Butter, softened 50g Caster sugar 75g Brown sugar 1 tsp Vanilla extract 1 egg 250g Dark choloate buds or melts (essentially you want large sized choc chips here)  Method  Preheat oven to 180 degrees celcius Line 2 cookie trays with baking paper Sift flour, cocoa powder &amp;amp; bicarb soda into a bowl Add oats to the same bowl (keep bowl to one side) Beat butter, caster sugar and brown sugar together until thick &amp;amp; pale Beat in the vanilla Beat in the egg Slowly beat in the dry mixture Reduce mixer to slowest speed and add the dark choloate Continue manually folding in chocolate until well combined Use 2 teaspoons to scoop even cookies onto cooking trays, you should get 12 to a sheet Bake in oven for 15-20 minutes Remove from tray to cooling rack until warm not cool When you eat them the center should be gooey and the chocolate runny Store in the fridge in airtight container (keeps for weeks)  Suggestion: Microwave for about 20-30 seconds on high before serving if cold from fridge to restore gooey-ness</description>
+    </item>
+    
+    <item>
+      <title>Curry Chicken Salad</title>
+      <link>https://krandor.business/recipes/curry_chicken_salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/curry_chicken_salad/</guid>
+      <description>Description Light, creamy curried summer chicken salad. (serves 2) Ingredients  1.5 cups frozen green beans, cut into pieces half and steamed 1.5 cups fresh asparagus, cut into pieces half and steamed 3 cups BBQ chock, coarsely chopped 2 large apples, thinly sliced (do last so they don&amp;rsquo;t brown) 1&amp;frasl;2 cup Spanish onion, thinly sliced 1&amp;frasl;3 cup plain low fat yoghurt Small handful of coriander, finely chopped A generous fistful toasted slithered almonds 1 tsp tumeric powder 1 tsp curry powder 2 tsp cumin powder 2 tbs low fat mayonnaise 1 tbs fresh lime juice  Method  Place cooled beans and asparagus into large mixing bowl with the onion, chicken and a sprinkle of coriander.</description>
+    </item>
+    
+    <item>
+      <title>Kali Dal</title>
+      <link>https://krandor.business/recipes/kali_dal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/kali_dal/</guid>
+      <description>Description A modified version of a traditional Indian Kali Dal recipe. (serves 6) I expect the original recipe was named after the Indian goddess of death because the amount of yummy dairy in this recipe will rush you to meet her. ![No picture just yet, death is patient&amp;hellip;]()
+Ingredients  400g tinned red kidney beans 400g tinned brown lentils 400g tinned tomatoes 2 cups of vegetable stock 1 cup of plain yogurt 1&amp;frasl;2 cup of heavy cream 100g butter (roughly cubed) 1 medium brown onion (finely diced) 4 heaped tsp ground ginger 1 tsp garam masala 1 Tbs ground coriander 1 tsp chilli powder 2 tsp ground salt  Method  Put all the ingredients into a heavy pot or slow cooker and stir well to incorporate everything Simmer partially covered for about 2 hours Stir gently every 15 to 30 minutes to prevent sticking Add a little vegetable stock or cover if you suspect it is drying out Alternately, you may need to increase the heat a bit and remove the cover entirely to reduce the liquid content over the last 30 minutes if it looks too liquidy Further tuning of the butter quantity(!</description>
+    </item>
+    
+    <item>
+      <title>Moroccan Lamb &amp; Vegie Bake</title>
+      <link>https://krandor.business/recipes/moroccan_lamb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/moroccan_lamb/</guid>
+      <description> Description Moroccan minced Lamb and vegetable bake. (serves 4)
+Sweet lamb mince and vegetables in a bread crumb crusted bake Ingredients  500g Lamb mince 2 Cups of bread crumbs 1 Can of chickpeas 1 Can of chopped tomatoes 1 Onion, finely chopped 1 Celery stick, finely chopped 1 Red capsicum, finely chopped 3 Small carrots, finely chopped 3 Small zucchinis, diced 2 Tbs olive oil 2 Tbs minced garlic 2 Tbs ground cumin 2 Tbs Kasundi 1 tsp ground coriander 1 tsp ground ginger 1 tsp ground tumeric 1 tsp sweet paprika 1&amp;frasl;2 tsp salt 1&amp;frasl;2 tsp ground black pepper  Method  Preheat oven to 180 degrees Celcius Heat oil in a large, heavy, sealable, oven proof pot Add onions and garlic and saute until just brown Add cumin, coriander, ginger, tumeric, paprika, salt and pepper Add lamb mince, cook and brown Add carrots, celery, and red capsicum and sweat Add chopped tomatoes and kasundi and stir Add chcikpeas and stir Add zucchini and stir Heat mixture until bubbling Transfer covered pot to the oven for 20 mins Remove from oven, stir to get any caked on goodness off the sides and bottom of the pot Spread bread crumbs over the top Return uncovered pot to the oven for a further 10 mins Remove from oven and let stand for 5 minutes before serving  </description>
+    </item>
+    
+    <item>
+      <title>The waterfall hideout</title>
+      <link>https://krandor.business/docs/waterfall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/waterfall/</guid>
+      <description>Plot Hook  Captured kobolds from the some previous mission divulge information of the lair&amp;rsquo;s whereabouts OR The PCs stumble across the secret hideout of the infamous Rougesbury, what are the odds?  Rougesbury&amp;rsquo;s Lair Conditions Make good use of darkness, echoes, the perceived vulnerabilities of crawl spaces and climbing with inappropriate weapons and swimming in water in heavy armour. Field running guerilla combats, ambushes and traps. Think of the fear of being in someone else&amp;rsquo;s element, and they know it.</description>
+    </item>
+    
+    <item>
+      <title>Wombok Salad</title>
+      <link>https://krandor.business/recipes/wombok_salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/wombok_salad/</guid>
+      <description>Description An Asian dressing salad made from Chinese cabbage, apples, tofu, fried noodles and toasted slivered almonds. (serves 4) In case you haven&amp;rsquo;t seen it before, a wombok looks like this:
+Ingredients Salad
+ 1 Wombok (Chinese Cabbage) 2 Granny Smith Apples (other seasonal varieties can be substituted) 200g &amp;ldquo;Chinese&amp;rdquo; marinated tofu (available packaged in super market) 80g Fried Noodles (available packaged in asian section of super market) 80g Slivered almonds 40g Oriental fried onions (available packaged in asian section of super market)  Dressing</description>
+    </item>
+    
+    <item>
+      <title>Zucchini Boat Chicken Fajitas</title>
+      <link>https://krandor.business/recipes/zucchini_boat_chicken_fajitas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/recipes/zucchini_boat_chicken_fajitas/</guid>
+      <description> Description Zucchini boats stuffed with shredded roast chicken, mexican black beans &amp;amp; sweet corn. Topped with hot salsa, grated cheese, guacamole &amp;amp; sour cream. (serves 4) Ingredients  4 Zucchinis, halved and hollowed out (chop &amp;amp; reserve the filling) 1&amp;frasl;2 roast chicken, skinned and shredded 1 tin of mexican black beans 1 tin of sweet corn kernels 2 Spring onions (chopped) 1&amp;frasl;2 a sachet of fajita seasoning mix Salt, pepper to taste 100g Tasty cheese (grated) 1 medium jar of medium to hot mexican salsa 1 regular tub of guacamole 1 small container of sour cream  Method  Pre-heat oven to 180 degrees centigrade Microwave the zucchini halves in 2 batches on high for 1 minute and transfer to a roasting tray cool Combine the chicken, zucchini filling, black beans, corn and spring onions Add the fajita seasoning and also season with salt, pepper as desired Fill each of the zucchini halves and cover with salsa Place the zucchini halves in the roasting tray in the oven for 30 minutes Remove tray from oven and plate the zucchini boats in pairs top with gated cheese, guacamole and sour cream Eat with a knife and fork Left over chicken, zucchini, black beans and corn filling may be used as a salad or sandwich/wrap filling for lunch the next day  </description>
+    </item>
+    
+  </channel>
+</rss>

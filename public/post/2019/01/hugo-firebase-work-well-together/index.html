@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hugo &amp; Firebase work well together | Krandor Home</title>
+
+    <style>body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}div.header h1{padding-top:0;padding-bottom:8px;margin-bottom:24px;font-size:18px;font-weight:400;border-bottom:1px solid}.header-menu{float:right}ul.pagination{list-style-type:none;text-align:center;padding:0}ul.pagination>li{padding:0 8px;display:inline-block}div.footer{border-top:1px solid;text-align:center}</style>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-131728687-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    
+</head>
+
+<body>
+<div class="header">
+    <h1>
+        <a href="/">Krandor Home</a>
+        <div class="header-menu">
+            <a href="/post/">blog</a>
+            <a href="/recipes/">recipes</a>
+            <a href="/docs/">docs</a>
+            <a href="/about/">about</a>
+        </div>
+    </h1>
+</div>
+<div id="content">
+
+<header>
+    <h1>Hugo &amp; Firebase work well together</h1>
+    
+
+<div class="post-meta">
+    Date &#x5b;
+    <time datetime="2019-01-10">Jan 10, 2019</time>
+    &#x5d;
+</div>
+</header>
+<article>
+    <p>So I&rsquo;ve been playing around a little bit with <a href="https://gohugo.io">Hugo</a> and <a href="https://firebase.google.com">Firebase</a> - that&rsquo;s what this new site is built with. It is also the first time I&rsquo;ve played around with <a href="https://en.wikipedia.org/wiki/Markdown">text/markdown</a> to build a website.  Not a bad combination to build a static page based structure and you can see that I have gone to town on with a <a href="https://github.com/Xzya/simple-hugo-theme">simple hugo theme</a> inspired by the geniuses behind <a href="http://bettermotherfuckingwebsite.com">bettermotherfuckingwebsite.com</a>.</p>
+
+<p>It wasn&rsquo;t super hard to get it all together.  Here are the steps I took&hellip;</p>
+
+<p><strong>1.</strong> Download and configure <a href="https://gohugo.io">Hugo</a> with the <a href="https://github.com/Xzya/simple-hugo-theme">simple hugo theme</a> - here&rsquo;s a trick&hellip; create your Hugo directories FIRST!</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site krandor
+cd krandor/themes
+git clone https://github.com/Xzya/simple-hugo-theme.git simple
+cd ..
+vi config.toml
+hugo new about.md
+hugo -t simple -D</code></pre></td></tr></table>
+</div>
+</div>
+<p><strong>2.</strong> Create a Firebase Hosting site - see <a href="https://firebase.google.com/docs/hosting/quickstart">Get started with Firebase Hosting</a> - initialise your Firebase project in your</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">firebase login
+firebase init
+firebase deploy</code></pre></td></tr></table>
+</div>
+</div>
+<p><strong>3.</strong> Check out the site and browse to the <code>/about</code> path</p>
+
+</article>
+
+
+    </div>
+<div class="footer">
+    
+    
+    <div class="footer-links">
+        <a href="https://github.com/Xzya">GitHub</a>
+        <a href="/post/index.xml">RSS</a>
+    </div>
+    
+
+    
+    
+    <div class="copyright">© 2019 — The Real Krandor  — All rights reserved.</div>
+    
+</div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Krandor Home</title>
+    <link>https://krandor.business/post/</link>
+    <description>Recent content in Posts on Krandor Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>© 2019 — The Real Krandor  — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 23 Mar 2019 05:27:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://krandor.business/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stripe</title>
+      <link>https://krandor.business/post/2019/03/stripe/</link>
+      <pubDate>Sat, 23 Mar 2019 05:27:12 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/03/stripe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Visualisation API</title>
+      <link>https://krandor.business/post/2019/01/google-visualisation-api/</link>
+      <pubDate>Thu, 17 Jan 2019 03:40:35 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/01/google-visualisation-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo &amp; Firebase work well together</title>
+      <link>https://krandor.business/post/2019/01/hugo-firebase-work-well-together/</link>
+      <pubDate>Thu, 10 Jan 2019 00:21:58 +0000</pubDate>
+      
+      <guid>https://krandor.business/post/2019/01/hugo-firebase-work-well-together/</guid>
+      <description>So I&amp;rsquo;ve been playing around a little bit with Hugo and Firebase - that&amp;rsquo;s what this new site is built with. It is also the first time I&amp;rsquo;ve played around with text/markdown to build a website. Not a bad combination to build a static page based structure and you can see that I have gone to town on with a simple hugo theme inspired by the geniuses behind bettermotherfuckingwebsite.com.
+It wasn&amp;rsquo;t super hard to get it all together.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Google Visualisation API | Krandor Home</title>
+
+    <style>body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}div.header h1{padding-top:0;padding-bottom:8px;margin-bottom:24px;font-size:18px;font-weight:400;border-bottom:1px solid}.header-menu{float:right}ul.pagination{list-style-type:none;text-align:center;padding:0}ul.pagination>li{padding:0 8px;display:inline-block}div.footer{border-top:1px solid;text-align:center}</style>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-131728687-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+    google.charts.load('current', {packages: ['corechart']});
+    google.charts.setOnLoadCallback(drawMvChart);
+    google.charts.setOnLoadCallback(drawKChart);
+    
+    function drawMvChart() {
+        
+        var mvData = new google.visualization.arrayToDataTable([
+            ['datetime', 'Cell 1 (mV)', 'Cell 2 (mV)', 'Cell 3 (mV)'],
+            [new Date(1969, 6, 27, 18, 41, 2), 101, 57, 96],
+            [new Date(1969, 6, 27, 18, 41, 22), 102, 58, 96],
+            [new Date(1969, 6, 27, 18, 42, 16), 103, 57, 97],
+            [new Date(1969, 6, 27, 18, 43, 10), 105, 59, 98],
+            [new Date(1969, 6, 27, 18, 44, 4), 104, 60, 99],
+            [new Date(1969, 6, 27, 18, 44, 59), 106, 61, 100],
+            [new Date(1969, 6, 27, 18, 45, 53), 108, 61, 102],
+            [new Date(1969, 6, 27, 18, 46, 48), 107, 62, 104],
+            [new Date(1969, 6, 27, 18, 47, 42), 109, 63, 103],
+            [new Date(1969, 6, 27, 18, 48, 36), 110, 64, 105]
+        ]);
+
+        var mvOptions = {
+            title: 'Moon Dust (Cell mV)',
+            curveType: 'function',
+            legend: { position: 'bottom' },
+            animation: {
+                duration: 1000,
+	        startup: true,
+	        easing: 'out'
+            }
+        }
+
+	
+	var mvChart = new google.visualization.LineChart(document.getElementById('mvChart'));
+	mvChart.draw(mvData, mvOptions);
+
+	var timestamp = new Date (1969, 6, 27, 18, 47, 42);
+	var cell1 = 110;
+	var cell2 = 64;
+	var cell3 = 105;
+        var addMvData = document.getElementById('addMv');
+
+        addMvData.onclick = function() {
+            var a = Math.floor(Math.random() * 10);
+            var b = Math.floor(Math.random() * 10);
+            var c = Math.floor(Math.random() * 10);
+	    console.log('old data = ' + new Date(timestamp) + ' ' + cell1 + ' ' + cell2 + ' ' + cell3);
+	    timestamp = new Date(timestamp.getTime() + (54 * 1000));
+	    cell1 += a;
+	    cell2 += b;
+	    cell3 += c;
+	    console.log('new data = ' + new Date(timestamp) + ' ' + cell1 + ' ' + cell2 + ' ' + cell3);
+	    mvData.addRows([[new Date(timestamp), cell1, cell2, cell3]]);
+	    console.log('mvRows = ' + mvData.getNumberOfRows());
+	    mvChart.draw(mvData, mvOptions);
+        }
+    }
+
+    function drawKChart() {
+        
+        var kData = new google.visualization.arrayToDataTable([
+            ['datetime', 'Int. Temp (K)', 'Cell Temp (K)', 'Ext. Temp (K)'],
+            [new Date(1969, 6, 27, 18, 41, 2), 206, 57, 70],
+            [new Date(1969, 6, 27, 18, 41, 22), 203, 58, 70],
+            [new Date(1969, 6, 27, 18, 42, 16), 208, 56, 70],
+            [new Date(1969, 6, 27, 18, 43, 10), 209, 56, 71],
+            [new Date(1969, 6, 27, 18, 44, 4), 207, 59, 71],
+            [new Date(1969, 6, 27, 18, 44, 59), 210, 60, 71],
+            [new Date(1969, 6, 27, 18, 45, 53), 215, 61, 71],
+            [new Date(1969, 6, 27, 18, 46, 48), 222, 63, 72],
+            [new Date(1969, 6, 27, 18, 47, 42), 228, 65, 72],
+            [new Date(1969, 6, 27, 18, 48, 36), 225, 67, 74]
+        ]);
+
+        var kOptions = {
+            title: 'Moon Dust (Temp K)',
+            curveType: 'function',
+            legend: { position: 'bottom' },
+            animation: {
+                duration: 1000,
+	        startup: true,
+	        easing: 'out'
+            }
+        }
+
+	
+	var kChart = new google.visualization.LineChart(document.getElementById('kChart'));
+	kChart.draw(kData, kOptions);
+
+	var timestamp = new Date (1969, 6, 27, 18, 47, 42);
+	var temp1 = 225;
+	var temp2 = 67;
+	var temp3 = 74;
+        var addKData = document.getElementById('addK');
+
+        addKData.onclick = function() {
+            var a = Math.floor(Math.random() * 10);
+            var b = Math.floor(Math.random() * 10);
+            var c = Math.floor(Math.random() * 10);
+	    console.log('old data = ' + new Date(timestamp) + ' ' + temp1 + ' ' + temp2 + ' ' + temp3);
+	    timestamp = new Date(timestamp.getTime() + (54 * 1000));
+	    temp1 += a;
+	    temp2 += b;
+	    temp3 += c;
+	    console.log('new data = ' + new Date(timestamp) + ' ' + temp1 + ' ' + temp2 + ' ' + temp3);
+	    kData.addRows([[new Date(timestamp), temp1, temp2, temp3]]);
+	    console.log('kRows = ' + kData.getNumberOfRows());
+	    kChart.draw(kData, kOptions);
+        }
+    }
+
+</script>
+
+    
+</head>
+
+<body>
+<div class="header">
+    <h1>
+        <a href="/">Krandor Home</a>
+        <div class="header-menu">
+            <a href="/post/">blog</a>
+            <a href="/recipes/">recipes</a>
+            <a href="/docs/">docs</a>
+            <a href="/about/">about</a>
+        </div>
+    </h1>
+</div>
+<div id="content">
+
+<header>
+    <h1>Google Visualisation API</h1>
+    
+
+<div class="post-meta">
+    Date &#x5b;
+    <time datetime="2019-01-17">Jan 17, 2019</time>
+    &#x5d;
+</div>
+</header>
+<article>
+
+	<div id="mvChart" style="width:800; height:600"></div>
+	<div id="kChart" style="width:800; height:600"></div>
+	<button id="addMv" type="button">Add mV</button>
+	<button id="addK" type="button">Add K</button>
+    
+</article>
+
+
+    </div>
+<div class="footer">
+    
+    
+    <div class="footer-links">
+        <a href="https://github.com/Xzya">GitHub</a>
+        <a href="/post/index.xml">RSS</a>
+    </div>
+    
+
+    
+    
+    <div class="copyright">© 2019 — The Real Krandor  — All rights reserved.</div>
+    
+</div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Krandor Home</title>
+    <link>https://krandor.business/docs/</link>
+    <description>Recent content in Docs on Krandor Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>© 2019 — The Real Krandor  — All rights reserved.</copyright>
+    
+	<atom:link href="https://krandor.business/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://krandor.business/docs/waterfall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/waterfall/</guid>
+      <description>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;: new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src= &#39;//www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f); })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-5MXSDQ&#39;); Krandor.net Home Demos Documents Recipes Travel FAQ   The Waterfall Hideout Plot Hook  Captured kobolds from the some previous mission divulge information of the lair&amp;#39;s whereabouts OR The PCs stumble across the secret hideout of the infamous Rougesbury, what are the odds?  Rougesbury&amp;#39;s Lair Conditions Make good use of darkness, echoes, the perceived vulnerabilities of crawl spaces and climbing with inappropriate weapons and swimming in water in heavy armour.</description>
+    </item>
+    
+    <item>
+      <title>Bring them back alive</title>
+      <link>https://krandor.business/docs/sewers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/sewers/</guid>
+      <description>Plot Hook  City/Town is attacked by kobold raiders during the night [Side-plot – PCs Defend the Inn] The kobold attackers were eventually driven off One band of kobolds was cornered and has retreated to and holed up in the local sewers Community leaders (Inn keeper?) approach the PCs to help hunt down and capture the kobolds for questioning. [Side-plot - Hunt the Kobold&amp;rsquo;s to their Lair]  Decrepit Sewers Lore Lore DC 15 - Quite old and probably in need of repair, be careful.</description>
+    </item>
+    
+    <item>
+      <title>The waterfall hideout</title>
+      <link>https://krandor.business/docs/waterfall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krandor.business/docs/waterfall/</guid>
+      <description>Plot Hook  Captured kobolds from the some previous mission divulge information of the lair&amp;rsquo;s whereabouts OR The PCs stumble across the secret hideout of the infamous Rougesbury, what are the odds?  Rougesbury&amp;rsquo;s Lair Conditions Make good use of darkness, echoes, the perceived vulnerabilities of crawl spaces and climbing with inappropriate weapons and swimming in water in heavy armour. Field running guerilla combats, ambushes and traps. Think of the fear of being in someone else&amp;rsquo;s element, and they know it.</description>
+    </item>
+    
+  </channel>
+</rss>
